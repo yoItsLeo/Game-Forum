@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum 'bout my Game</title>
     <link rel = "stylesheet", href = "Forum.css">
     
-    
 </head>
 
 
 <body style="background-color:rgb(133, 46, 46);">
 
-        <article class="Buttons_Right">
+    <article class="Buttons_Right">
 
             <button class="download">
                 Download Game Name
@@ -46,7 +46,7 @@
             <button class="Lng">
                 language
             </button>
-        </article>
+    </article>
 
     <article class="Title">
             <button class = "GameName">Game Name</button> <br>
@@ -65,39 +65,44 @@
     </article>
 
     <article class="Tags">
-        <button class="Tag">
-            All
+
+        <button onclick = "ShowAll()" id = "Tag_all">
+            All 
         </button>
-        <button class="Tag">
+    
+        <button onclick = "ShowKeepUp()" id="Tag_keep_up">
             Keep up
         </button>
-        <button class="Tag">
-            Videos
+
+        <button onclick = "ShowVideos()" id="Tag_videos">
+            Videos 
         </button>
-        <button class="Tag">
+
+        <button onclick = "ShowScreenshots()" id="Tag_screenshots">
             Screenshots
         </button>
-        <button class="Tag">
+
+        <button onclick = "ShowReview()"id="Tag_review">
             Review
         </button>
-        <button class="Tag">
+
+        <button onclick = "ShowDiscussions()" id="Tag_discussions">
             Discussions
         </button>
-        <button class="Tag">
-            Idkkkkk
-        </button>
 
-        <section class="line1">
-            <p class="active_themes">
-                Active themes
-            </p>
-        </section>
+
+        <section class="one">
+            <p id = "idk">
+                idkidkidkidkidkidkidkidkidkidk
+                <br>idkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidkidk
+
+            </p>        </section>
+        
+
+        
+        
 
     </article>
-
-    
-
-   
 
     <article class="Views">
         <input type = "text" placeholder="search" class = "Searchbar_Views">
@@ -119,9 +124,9 @@
 
                 
 
-                <a class = "TopTwoWeek" href = "https://vk.com/leohuleblya">
+                <a class = "TopTwoWeek" href = "Images/39350205c539afaa93a738915948f02.png">
                 <img src = "Images/png-transparent-logo-person-user-person-icon-rectangle-photography-computer-wallpaper.png" class = "persona_img">
-                    About publisher
+                    Max / 许佳彤
                 </a>
 
 
@@ -161,7 +166,7 @@
             </a>
 
             <a href="" class="Hints">
-                <img src="Images/nn.png" class = "news_img">
+                <img src="Images/hint.png" class = "news_img">
                 Hints
             </a>
         </section>
@@ -170,13 +175,7 @@
         
     </article>
 
-
-
     
-    
-
-
-
 
 
 </body>
@@ -186,4 +185,8 @@
 
 
 
+
+
+
+<script src="main.js"></script>
 </html>
